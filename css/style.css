@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.site_header {
+  background-color: #1e252b;
+}
+
+.container {
+  max-width: 1256px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site_header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 58px;
+}
+.nav_list {
+  display: flex;
+  width: 431px;
+  justify-content: space-between;
+}
+
+.nav_list_item_link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff8c;
+}
+
+.nav_select {
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff8c;
+}
+
+.login_btns {
+  display: flex;
+  gap: 41px;
+}
+.login {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.78);
+  opacity: 0.78;
+  cursor: pointer;
+}
+.signup {
+  width: 118px;
+  height: 48px;
+  background: #ff6e30;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fdf5ff;
+  border: none;
+  cursor: pointer;
+}
+
+/************************************* header end ******************************/
+
+/************************************* main start ***************************************/
+
+.main_top_sec {
+  background-color: #1e252b;
+}
+
+.main_top_wrapper {
+  display: flex;
+  position: relative;
+}
+.main_top_title {
+  width: 600px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 58px;
+  margin-bottom: 30px;
+}
+
+.main_top_desc {
+  width: 487px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 60px;
+}
+.main_top_img {
+  position: absolute;
+  top: -140px;
+  right: -100px;
+}
+.search_form {
+  position: relative;
+  margin-bottom: 110px;
+}
+.search_input {
+  width: 497.66px;
+  height: 64px;
+  background: #283036;
+  padding-left: 55px;
+  border-radius: 15px;
+  border: none;
+  background-image: url(../images/lupa.svg);
+  background-position: calc(50% - 220px);
+  background-repeat: no-repeat;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.38);
+}
+.search_btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 130.43px;
+  height: 48px;
+  background: #ff6e30;
+  border-radius: 8px;
+  border: none;
+  position: absolute;
+  top: 5px;
+  right: 115px;
+}
