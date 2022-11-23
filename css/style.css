@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x:hidden ;
 }
 
 ul {
@@ -322,12 +323,13 @@ svg {
 /******************************* newcomer toools section  *******************************/
 .new_tools {
   background: #1e252b;
+  padding-bottom: 200px;
 }
 .new_tools_wrapper {
   display: flex;
   justify-content: space-between;
 
-  width: 1224px;
+
 }
 .wrapper_article {
   margin-right: 213px;
@@ -380,7 +382,7 @@ svg {
 .new_tools_card:hover {
   width: 288px;
   height: 284px;
-  background: rgba(40, 48, 54, 0.6);
+  background-color: #242C32;
   backdrop-filter: blur(25px);
   border-radius: 15px;
 }
@@ -390,5 +392,73 @@ svg {
   border-radius: 8px;
 }
 
-
 /************************************** manager section  ***********************************/
+
+.manager {
+  background: #1e252b;
+}
+.manager_wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/qutos.svg);
+  background-repeat: no-repeat;
+  background-position: 633px 93px;
+  margin-bottom: 100px;
+}
+
+.left_arrow {
+  display: block;
+  width: 80px;
+  height: 100px;
+  background: #1e252b;
+  border-radius: 8px;
+  margin-top: 50px;
+  padding: 38px 30px 19px 29px;
+}
+.left_arrow:hover {
+  border-radius: 8px;
+  border: 1px solid lightblue;
+  padding: 38px 30px 19px 29px;
+}
+
+.right_arrow {
+  display: block;
+  width: 80px;
+  height: 100px;
+  background: #1e252b;
+  border-radius: 8px;
+  margin-top: 50px;
+  padding: 25px 30px 19px 11px;
+}
+.right_arrow:hover {
+  border-radius: 8px;
+  border: 1px solid lightblue;
+  padding: 25px 30px 19px 11px;
+}
+
+.left_side {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.right_side {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.right_side_desc {
+  width: 393px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.indikator{
+display: block;
+margin: 0 auto;
+}
