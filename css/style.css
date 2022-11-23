@@ -497,9 +497,7 @@ svg {
 }
 
 .cont_form {
-
   position: relative;
-
 }
 
 .cont_input {
@@ -524,4 +522,48 @@ svg {
   border-radius: 8px;
 }
 
+/********************************************** footer section  ******************************************/
 
+.site_footer {
+  background-color: #1e252b;
+  border-top: 0.5px solid rgba(222, 212, 212, 0.15);
+}
+
+.footer_wrapper {
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 95px;
+}
+
+.copyright {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffffe6;
+  margin-top: 30px;
+  margin-bottom: 21px;
+}
+
+.copyright_desc {
+  width: 260px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff8c;
+}
+
+.footer_card_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
