@@ -56,6 +56,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff8c;
+  cursor: pointer;
 }
 
 .login_btns {
@@ -117,8 +118,8 @@ a {
 }
 .main_top_img {
   position: absolute;
-  top: -140px;
-  right: -100px;
+  top: -12px;
+  right: -115px;
 }
 .search_form {
   position: relative;
@@ -157,3 +158,237 @@ a {
   top: 5px;
   right: 115px;
 }
+
+.icon-list {
+  display: flex;
+  gap: 20px;
+}
+
+/*************************** most popular tools section   **********************************/
+
+.popular_tools {
+  background-color: #1e252b;
+  padding-top: 200px;
+}
+
+.popular_title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffffe6;
+  margin-bottom: 25px;
+}
+.popular_desc {
+  width: 427px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff8c;
+}
+.popular_wrapper {
+  width: 1244px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.popular_card {
+  padding: 33px;
+  width: 392px;
+
+  border-radius: 15px;
+}
+.popular_card:hover {
+  position: relative;
+  z-index: 50;
+  background: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+}
+
+.popular_card:hover .card_btn {
+  background-color: #ff6e30;
+  border-radius: 8px;
+}
+.popular_card:hover svg {
+  fill: #ff0000;
+}
+.card_img {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.tool_name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffffc7;
+}
+.staus {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffa5378c;
+}
+.card_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff8c;
+  margin-bottom: 41.37px;
+}
+
+.card_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_btn {
+  width: 106px;
+  height: 42px;
+  background: #1e252b;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff8c;
+  border: none;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+svg {
+  fill: white;
+}
+.load_more {
+  font-family: "Poppins";
+  font-style: normal;
+  width: 184px;
+  height: 64px;
+  background: #1e252b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff6e30;
+  margin-bottom: 200px;
+}
+
+/********************************* trusted section  ********************************/
+
+.trusted {
+  background: #1e252b;
+  padding-bottom: 200px;
+}
+.trusted_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffffcc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+
+.tristed_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1224px;
+  background: #2c353d33;
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+
+  padding-top: 55px;
+  padding-right: 83px;
+  padding-left: 82px;
+  padding-bottom: 57px;
+}
+.trusted_companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/******************************* newcomer toools section  *******************************/
+.new_tools {
+  background: #1e252b;
+}
+.new_tools_wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1224px;
+}
+.wrapper_article {
+  margin-right: 213px;
+}
+.wrapper_article_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+}
+.wrapper_article_desc {
+  width: 427px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 60px;
+}
+.wrapper_btn {
+  width: 198px;
+  height: 58px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  background: #ff6e30;
+  border-radius: 8px;
+}
+
+.new_toolbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.new_tools_card {
+  width: 288px;
+  padding: 28px 21px 28px 22px;
+  background: #1e252b;
+  border-radius: 15px;
+}
+
+.new_tools_card:hover {
+  width: 288px;
+  height: 284px;
+  background: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+}
+
+.new_tools_card:hover button {
+  background: #ff6e30;
+  border-radius: 8px;
+}
+
+
+/************************************** manager section  ***********************************/
