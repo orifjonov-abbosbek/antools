@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x:hidden ;
+  overflow-x: hidden;
 }
 
 ul {
@@ -328,8 +328,6 @@ svg {
 .new_tools_wrapper {
   display: flex;
   justify-content: space-between;
-
-
 }
 .wrapper_article {
   margin-right: 213px;
@@ -382,7 +380,7 @@ svg {
 .new_tools_card:hover {
   width: 288px;
   height: 284px;
-  background-color: #242C32;
+  background-color: #242c32;
   backdrop-filter: blur(25px);
   border-radius: 15px;
 }
@@ -458,7 +456,72 @@ svg {
   color: rgba(255, 255, 255, 0.78);
 }
 
-.indikator{
-display: block;
-margin: 0 auto;
+.indikator {
+  display: block;
+  margin: 0 auto;
 }
+
+/********************************* contribution section  *********************************/
+
+.contribution {
+  background: #1e252b;
+}
+.cont_wrapper {
+  padding-top: 250px;
+  padding-bottom: 240px;
+}
+
+.contribution_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffffe6;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.contribution_desc {
+  width: 427px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff8c;
+  margin-bottom: 100px;
+}
+
+.cont_form {
+
+  position: relative;
+
+}
+
+.cont_input {
+  display: block;
+  width: 549px;
+  height: 64px;
+  background: #283036;
+  border-radius: 15px;
+  padding-left: 30px;
+  margin: 0 auto;
+  border: none;
+}
+.cont_btn {
+  position: absolute;
+  top: 10px;
+  right: 350px;
+  width: 130.43px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  background: #ff6e30;
+  border-radius: 8px;
+}
+
+
